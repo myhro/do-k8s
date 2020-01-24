@@ -15,6 +15,8 @@ metadata:
   labels:
     app.kubernetes.io/name: ingress-nginx
     app.kubernetes.io/part-of: ingress-nginx
+data:
+  use-proxy-protocol: "true"
 ---
 kind: ConfigMap
 apiVersion: v1
